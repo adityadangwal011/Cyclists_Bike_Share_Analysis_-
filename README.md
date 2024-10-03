@@ -1,36 +1,36 @@
-# Cyclistic Bike-Share Capstone Project
+# Cyclistic Bike-Share Data Analysis Project
 
 ## Overview
 
-This project is part of the **Capstone Project of the Google Data Analytics Professional Certificate**. As a junior data analyst in the marketing analyst team at **Cyclistic**, a fictional bike-share company based in Chicago, the goal of this project is to analyze the usage patterns of casual riders versus annual members and to provide recommendations for marketing strategies to convert casual riders into annual members.
+This project focuses on analyzing the usage patterns of casual riders versus annual members of **Cyclistic**, a bike-share program in Chicago. The goal is to provide insights that will inform marketing strategies to convert casual riders into annual members.
 
 ## Project Description
 
-**Cyclistic** operates a bike-share program with a fleet of over **5,800 bicycles** and **600 docking stations** across Chicago. The company aims to maximize the number of annual memberships by understanding how different types of users utilize the bike-sharing service.
+**Cyclistic** operates a bike-share program with a fleet of over **5,800 bicycles** and **600 docking stations** across Chicago. The primary goal of this project is to understand how casual riders and annual members use the bike-sharing service differently.
 
 ### Key Objectives
 
-- Analyze and identify trends in bike usage for casual riders and annual members.
-- Provide data-driven insights and visualizations to support marketing strategy recommendations.
+- Analyze trends in bike usage for casual riders and annual members.
+- Provide data-driven insights and visualizations to support marketing strategy recommendations aimed at increasing annual memberships.
 
 ### Data Sources
 
-The analysis uses **Cyclistic’s Historical Trip Data**, which includes:
+The analysis uses **Cyclistic’s Historical Trip Data**, which spans:
 
-- Data from the previous **12 months** (January 1, 2023, to December 31, 2023).
-- A total of **12 CSV files**, each representing one month of data.
+- The previous **12 months** (January 1, 2023, to December 31, 2023).
+- A total of **12 CSV files**, each containing one month's data.
 
 ## Data Preparation
 
 ### Data Structure and Organization
 
 - The data is structured and organized into individual CSV files.
-- Each dataset contains information such as `ride_id`, `rideable_type`, `started_at`, `ended_at`, `member_casual`, `ride_length`, `day_of_week`, and `weekday`.
+- Each dataset contains fields such as `ride_id`, `rideable_type`, `started_at`, `ended_at`, `member_casual`, `ride_length`, `day_of_week`, and `weekday`.
 
 ### Data Reliability
 
-- Data is sourced from a real bike-sharing company in Chicago and is deemed **Reliable, Original, Current, and Cited** (ROCCC).
-- Limitations include the lack of financial data and personally identifiable information (PII) due to data privacy regulations.
+- The data is sourced from a real bike-sharing company in Chicago and is deemed **Reliable, Original, Current, and Cited** (ROCCC).
+- Some limitations include the lack of financial data and personally identifiable information (PII) due to data privacy regulations.
 
 ## Analysis Process
 
@@ -52,7 +52,7 @@ The analysis follows the steps of the data analysis process: **ask, prepare, pro
 3. **Average Ride Length by Weekday**
    - Average ride lengths increase on weekends, while remaining shorter during weekdays.
 
-### Conclusions
+## Conclusions
 
 - Casual riders tend to take longer trips for leisure, particularly on weekends.
 - Members utilize bikes for shorter, consistent trips, likely for commuting purposes.
@@ -65,3 +65,17 @@ The analysis follows the steps of the data analysis process: **ask, prepare, pro
 4. **Promote Off-Peak Hours for Member Riders**: Provide rewards for trips taken during non-peak hours.
 5. **Expand Services on Saturdays**: Increase bike availability and maintenance support on Saturdays.
 6. **Leverage Ride Data for Targeted Marketing**: Use data to create personalized promotions for both casual riders and existing members.
+
+## Files and Directories
+
+- `data/` - Contains the monthly CSV files used for analysis.
+- `notebooks/` - Contains Jupyter notebooks with the analysis code.
+- `visualizations/` - Contains visualizations generated from the analysis.
+
+## Getting Started
+
+To run the analysis:
+
+1. Clone the repository:
+   ```bash
+   git clone [repository_url]
