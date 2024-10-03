@@ -66,16 +66,5 @@ The analysis follows the steps of the data analysis process: **ask, prepare, pro
 5. **Expand Services on Saturdays**: Increase bike availability and maintenance support on Saturdays.
 6. **Leverage Ride Data for Targeted Marketing**: Use data to create personalized promotions for both casual riders and existing members.
 
-## Files and Directories
+# Thanks You
 
-- `data/` - Contains the monthly CSV files used for analysis.
-- `notebooks/` - Contains Jupyter notebooks with the analysis code.
-- `visualizations/` - Contains visualizations generated from the analysis.
-
-## Getting Started
-
-To run the analysis:
-
-1. Clone the repository:
-   ```bash
-   git clone [repository_url]
